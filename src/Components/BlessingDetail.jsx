@@ -55,7 +55,7 @@ export default function BlessingDetail({ match }) {
   return (
     blessedDetails && (
       <div className='detail-page'>
-        <Card style={{ width: "30rem" }}>
+        <Card className='blessing-detail'>
           <Card.Body>
             <Card.Title>{blessedDetails.title}</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">
