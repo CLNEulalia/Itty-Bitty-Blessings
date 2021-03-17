@@ -1,9 +1,9 @@
-import { useState } from "react";
-import axios from 'axios';
 import "./styles/FormStyle.css";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
+import axios from 'axios';
 import { Link } from "react-router-dom"
+import { useState } from "react";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 
 export default function BlessingForm({ match }) {
   const initialState = {
@@ -39,7 +39,7 @@ export default function BlessingForm({ match }) {
   };
   
   return (
-    <div className="new-blessing">
+    <div>
       {submitted ? (
         <div>
           <h4>Youre blessing has been shared!</h4>
@@ -48,7 +48,7 @@ export default function BlessingForm({ match }) {
           </button>
         </div>
       ) : (
-        <Form>
+        <Form className="new-blessing">
           <Form.Group className="input-author">
             <Form.Label>Author</Form.Label>
             <Form.Control
