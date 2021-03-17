@@ -1,0 +1,19 @@
+.new-blessing {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: 2rem;
+    margin-right: 2rem;
+    max-width: 600px; */
+}
+
+.new-blessing {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit-blessing {
+    display: flex;
+    max-width: 6rem;
+}
